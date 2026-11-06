@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 
 export default function Page() {
   return (
-    <Section className="flex h-screen items-center justify-center">
+    <Section className="flex min-h-svh flex-col justify-center text-center">
       <h1 className="text-body-md font-bold">Terms of Service</h1>
     </Section>
   );

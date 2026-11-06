@@ -13,7 +13,7 @@ export function generateStaticParams() {
 
 export default function Page() {
   return (
-    <Section className="flex h-screen items-center justify-center">
+    <Section className="flex min-h-svh flex-col justify-center text-center">
       <h1 className="text-body-md font-bold">Project Page</h1>
     </Section>
   );
