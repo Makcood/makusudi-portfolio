@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 
+import { Section } from "@/components/ui/";
 import { rootMetadata } from "@/config/metadata";
 
 const title = "About";
@@ -14,8 +15,8 @@ export const metadata: Metadata = {
 
 export default function Page() {
   return (
-    <section className="flex h-screen items-center justify-center">
+    <Section className="flex h-screen items-center justify-center">
       <h1 className="text-body-md font-bold">About Page</h1>
-    </section>
+    </Section>
   );
 }
