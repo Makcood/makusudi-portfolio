@@ -5,7 +5,6 @@ export type NavItem = {
   href: string;
   icon?: IconType;
   description?: string;
-  // inHeader?: boolean;
 };
 
 export type NavGroup = {

@@ -8,7 +8,7 @@ export default function FooterNavigation({ className }: { className?: string }) 
     <nav className={cn("flex flex-col gap-8 md:flex-row", className)} aria-label="Footer">
       {footerNavGroups.map((group) => (
         <div key={group.title} className="flex flex-col gap-3.5 md:flex-1">
-          <h2 className="text-body-sm">{group.title}</h2>
+          <h2 className="text-body-sm font-semibold">{group.title}</h2>
           <ul className="flex flex-col gap-3">
             {group.items.map((item) => (
               <li key={item.href}>
