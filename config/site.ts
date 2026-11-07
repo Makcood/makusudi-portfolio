@@ -5,6 +5,6 @@ export const site = {
   author: "Joshua Makusudi",
   url: env.siteUrl,
   description:
-    "makusudidev is the portfolio personal of Joshua Makusudi, a software engineer building full-stack web, mobile and AI-driven products.",
+    "makusudidev is the personal portfolio of Joshua Makusudi, a software engineer building full-stack web, mobile and AI-driven products.",
   locale: "en_GB",
 } as const;

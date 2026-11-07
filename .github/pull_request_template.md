@@ -1,30 +1,47 @@
-#### **SUMMARY**
+#### SUMMARY
 
-> <!-- What this pull request does and why, in one or two sentences. Link the related epic if there is one. -->
+<!-- What changed, in one or two sentences. -->
 
-#### **CHANGES**
-
-> <!-- List what was changed. Plain bullets, one change per line. -->
 >
+
+#### RATIONALE
+
+<!-- Why the change was made. -->
+
+>
+
+#### ROOT CAUSE
+
+<!-- Bug fixes only: what caused the bug and why it was not caught. Delete this section for other changes. -->
+
+>
+
+#### CHANGES
+
+<!-- How: the main changes, one per line. -->
+
+> -
 > -
 
-#### **VERIFICATION**
+#### VERIFICATION
 
-> <!-- How you confirmed it works, including failure cases where relevant. -->
+<!-- The steps a reviewer can follow to confirm it works. -->
+
+> 1.
+> 2.
+
+#### SCREENSHOTS
+
+<!-- Optional: before and after, light and dark themes. Delete this section if the change has no visual impact. -->
+
 >
-> - [ ]
 
-<!--
-Optional sections. Delete them if they're not needed.
+#### NOTES
 
-#### **SCREENSHOTS**
+<!-- Optional: add an alert only if the content needs one: [!NOTE], [!TIP], [!IMPORTANT], [!WARNING] or [!CAUTION]. Delete this section if not needed. -->
 
-> Before and after, for any change to the interface.
+> [!NOTE]
 
-> [!NOTE] / [!TIP] / [!IMPORTANT] / [!WARNING] / [!CAUTION]
-> Anything the reviewer should know.
--->
-
----
+<!-- In a stack, put every Closes line in the bottom pull request, the one targeting main. -->
 
 Closes #
