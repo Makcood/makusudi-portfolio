@@ -4,6 +4,18 @@
   syntax: "<integer>";
 }
 
+@keyframes reveal-not-found {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
 @keyframes reveal {
   from {
     translate: 0 2.5rem;
