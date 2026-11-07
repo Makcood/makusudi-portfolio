@@ -59,7 +59,7 @@ export const footerNavGroups: NavGroup[] = [
       { label: "Services", href: "/services" },
       { label: "Process", href: "/process" },
       { label: "Experience", href: "/experience" },
-      { label: "Tools & Integration", href: "/tools-and-integration" },
+      { label: "Tools", href: "/tools" },
     ],
   },
   {
@@ -73,12 +73,12 @@ export const footerNavGroups: NavGroup[] = [
     ],
   },
   {
-    title: "Connect",
+    title: "Legal",
     items: [
-      { label: "GitHub", href: "https://github.com/makusudijoshua", icon: FaGithub },
-      { label: "LinkedIn", href: "https://www.linkedin.com/in/makusudijoshua", icon: FaLinkedin },
-      { label: "Instagram", href: "https://instagram.com/makusudijoshua", icon: FaInstagram },
-      { label: "X", href: "https://twitter.com/makusudijoshua", icon: FaTwitter },
+      { label: "Terms of Service", href: "/terms-services" },
+      { label: "Privacy Policy", href: "/privacy" },
+      { label: "Accessibility", href: "/accessibility" },
+      { label: "Sitemap", href: "/sitemap" },
     ],
   },
 ];
@@ -86,13 +86,6 @@ export const footerNavGroups: NavGroup[] = [
 export const socialNavItems: NavItem[] = [
   { label: "GitHub", href: "https://github.com/makusudijoshua", icon: FaGithub },
   { label: "LinkedIn", href: "https://www.linkedin.com/in/makusudijoshua", icon: FaLinkedin },
-  { label: "Instagram", href: "https://instagram.com/makusudijoshua", icon: FaInstagram },
   { label: "X", href: "https://twitter.com/makusudijoshua", icon: FaTwitter },
-];
-
-export const legalNavItems: NavItem[] = [
-  { label: "Terms of Service", href: "/terms-services" },
-  { label: "Privacy Policy", href: "/privacy" },
-  { label: "Accessibility", href: "/accessibility" },
-  { label: "Sitemap", href: "/sitemap" },
+  { label: "Instagram", href: "https://instagram.com/makusudijoshua", icon: FaInstagram },
 ];

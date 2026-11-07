@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 
+import Footer from "@/components/layout/footer/footer";
 import { instrumentSans } from "@/config/font";
 import { rootMetadata } from "@/config/metadata";
 import { ThemeProvider } from "@/providers/theme-provider";
@@ -19,6 +20,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           disableTransitionOnChange
         >
           {children}
+          <Footer />
         </ThemeProvider>
       </body>
     </html>

@@ -2,10 +2,9 @@ import type { IconType } from "react-icons";
 
 export type NavItem = {
   label: string;
-  href?: string;
+  href: string;
   icon?: IconType;
   description?: string;
-  // inHeader?: boolean;
 };
 
 export type NavGroup = {
