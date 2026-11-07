@@ -1,9 +1,11 @@
-import React from "react";
+import { FeatureWork, Hero, ServiceOverview } from "@/components/sections/home";
 
 export default function Page() {
   return (
-    <section className="flex h-screen items-center justify-center">
-      <h1 className="text-body-md font-bold">Hello, world !</h1>
-    </section>
+    <>
+      <Hero />
+      <FeatureWork />
+      <ServiceOverview />
+    </>
   );
 }
