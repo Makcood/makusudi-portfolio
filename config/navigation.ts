@@ -59,7 +59,7 @@ export const footerNavGroups: NavGroup[] = [
       { label: "Services", href: "/services" },
       { label: "Process", href: "/process" },
       { label: "Experience", href: "/experience" },
-      { label: "Tools & Integration", href: "/tools-and-integration" },
+      { label: "Tools", href: "/tools" },
     ],
   },
   {
