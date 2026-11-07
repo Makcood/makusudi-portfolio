@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 
-import Footer from "@/components/layout/footer/footer";
 import { instrumentSans } from "@/config/font";
 import { rootMetadata } from "@/config/metadata";
 import { ThemeProvider } from "@/providers/theme-provider";
@@ -12,7 +11,7 @@ export const metadata: Metadata = rootMetadata;
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html lang="en-GB" className={`${instrumentSans.variable}`} suppressHydrationWarning>
-      <body className="flex min-h-dvh flex-col antialiased">
+      <body className="flex min-h-svh flex-col antialiased">
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
@@ -20,7 +19,6 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           disableTransitionOnChange
         >
           {children}
-          <Footer />
         </ThemeProvider>
       </body>
     </html>
