@@ -6,6 +6,7 @@ export { default as Container } from "./container";
 export * from "./field";
 export { default as Input } from "./input";
 export * from "./input-group";
+export * from "./navigation-menu";
 export { default as Section } from "./section";
 export { default as Separator } from "./separator";
 export { default as Skeleton } from "./skeleton";
