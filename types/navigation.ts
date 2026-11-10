@@ -4,6 +4,7 @@ export type NavItem = {
   label: string;
   href: string;
   icon?: IconType;
+  inHeader?: boolean;
   description?: string;
 };
 
