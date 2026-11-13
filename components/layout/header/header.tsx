@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 
 import { cn } from "@/lib/utils/class-name";
 import HeaderNav from "@/components/layout/header/header-nav";
-// import HeaderNavMobile from "@/components/layout/header/header-nav-mobile";
+import HeaderNavMobile from "@/components/layout/header/header-nav-mobile";
 import { AppLogo } from "@/components/shared";
 import Container from "@/components/ui/container";
 
@@ -26,10 +26,10 @@ export default function Header() {
         scrolled ? "bg-background/80 backdrop-blur-lg" : "",
       )}
     >
-      <Container className="flex h-16 items-center justify-between">
+      <Container className="flex items-center justify-between py-6">
         <AppLogo />
         <HeaderNav />
-        {/*<HeaderNavMobile />*/}
+        <HeaderNavMobile />
       </Container>
     </header>
   );
