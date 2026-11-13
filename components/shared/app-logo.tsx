@@ -1,18 +1,21 @@
-"use client";
-
 import Link from "next/link";
 
-import AppLogoIcon from "./app-logo-icon";
+import { cn } from "@/lib/utils/class-name";
+import { site } from "@/config/site";
 
-export default function AppLogo() {
+import LogoIcon from "./logo-icon";
+
+export default function AppLogo({ className }: { className?: string }) {
   return (
-    <Link href="/" aria-label="Makcood home" className="flex items-center">
-      <span
-        className="flex aspect-square size-8 items-center justify-center rounded-md bg-brand text-brand-foreground"
-        aria-hidden="true"
-      >
-        <AppLogoIcon className="size-5 fill-current" />
-      </span>
+    <Link
+      href="/"
+      aria-label={`${site.name} home`}
+      className={cn(
+        "flex size-8 items-center justify-center rounded-md bg-brand text-brand-foreground",
+        className,
+      )}
+    >
+      <LogoIcon className="size-5 fill-current" aria-hidden="true" />
     </Link>
   );
 }

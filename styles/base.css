@@ -1,7 +1,7 @@
 @layer base {
   html {
     scroll-padding-block-start: var(--layout-header-height);
-    font-family: var(--font-sans), system-ui, sans-serif;
+    font-family: var(--font-instrument-sans), system-ui, sans-serif;
     font-feature-settings:
       "ss02" 1,
       "ss09" 1;
