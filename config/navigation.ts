@@ -2,6 +2,14 @@ import { FaGithub, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa6";
 
 import { NavGroup, NavItem } from "@/types";
 
+export const appNavMenuItems: NavItem[] = [
+  { label: "Home", href: "/" },
+  { label: "About", href: "/about", inHeader: true },
+  { label: "Services", href: "/services" },
+  { label: "Projects", href: "/projects" },
+  { label: "Contact", href: "/contact" },
+];
+
 export const headerNavGroups: NavGroup[] = [
   {
     title: "Projects",
@@ -19,7 +27,7 @@ export const headerNavGroups: NavGroup[] = [
       {
         label: "RootTech",
         href: "/projects/roottech",
-        description: "Website for a technology startup, built to grow with the product.",
+        description: "Site for a technology startup, built to grow with the product.",
       },
       {
         label: "Idea",
@@ -33,17 +41,17 @@ export const headerNavGroups: NavGroup[] = [
     items: [
       {
         label: "Software Development",
-        href: "services/software-development",
+        href: "/services/software-development",
         description: "Web applications built to ship, scale and stay maintainable.",
       },
       {
         label: "Mobile Development",
-        href: "services/mobile-development",
+        href: "/services/mobile-development",
         description: "iOS and Android apps, from one codebase or native where it matters.",
       },
       {
         label: "AI & Automation",
-        href: "services/ai-automation",
+        href: "/services/ai-automation",
         description: "Tools and workflows that take the repetitive work off your team.",
       },
     ],

@@ -3,7 +3,9 @@
 import { useEffect, useState } from "react";
 
 import { cn } from "@/lib/utils/class-name";
-import Nav from "@/components/layout/navigation/nav";
+import HeaderNav from "@/components/layout/header/header-nav";
+// import HeaderNavMobile from "@/components/layout/header/header-nav-mobile";
+import { AppLogo } from "@/components/shared";
 import Container from "@/components/ui/container";
 
 export default function Header() {
@@ -20,12 +22,14 @@ export default function Header() {
   return (
     <header
       className={cn(
-        "sticky top-0 z-40 py-4 transition-colors",
+        "sticky top-0 z-50 transition-colors",
         scrolled ? "bg-background/80 backdrop-blur-lg" : "",
       )}
     >
-      <Container>
-        <Nav />
+      <Container className="flex h-16 items-center justify-between">
+        <AppLogo />
+        <HeaderNav />
+        {/*<HeaderNavMobile />*/}
       </Container>
     </header>
   );

@@ -6,9 +6,9 @@ import AppLogoIcon from "./app-logo-icon";
 
 export default function AppLogo() {
   return (
-    <Link href="/public" aria-label="Makcood home" className="flex items-center">
+    <Link href="/" aria-label="Makcood home" className="flex items-center">
       <span
-        className="flex aspect-square size-8 items-center justify-center rounded-md bg-brand text-muted-foreground"
+        className="flex aspect-square size-8 items-center justify-center rounded-md bg-brand text-brand-foreground"
         aria-hidden="true"
       >
         <AppLogoIcon className="size-5 fill-current" />

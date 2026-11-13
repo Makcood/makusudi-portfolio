@@ -9,6 +9,7 @@ export * from "./input-group";
 export * from "./navigation-menu";
 export { default as Section } from "./section";
 export { default as Separator } from "./separator";
+// export * from "./sheet";
 export { default as Skeleton } from "./skeleton";
 export { default as TextArea } from "./text-area";
 export * from "./toast";
